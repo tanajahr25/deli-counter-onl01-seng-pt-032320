@@ -22,5 +22,5 @@ def now_serving(other_deli)
   person =  katz_deli.shift
   puts "Welcome, #{person}. You are number #{katz_deli.length} in line."
 end
-return new_line
+return person
 end
