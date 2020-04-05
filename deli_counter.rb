@@ -19,7 +19,7 @@ def now_serving(katz_deli, person)
  if katz_deli.length == 0 
    puts "There is nobody waiting to be served!"
  elsif
-  new_line =  katz_deli.shift
+  person =  katz_deli.shift
   puts "Welcome, #{person}. You are number #{katz_deli.length} in line."
 end
 return new_line
